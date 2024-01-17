@@ -1,7 +1,7 @@
-# Idle Car Detection Using YOLOv4 and Background Subtraction Methods
-Projek ini merupakan submisi untuk babak final Datathon yang diselenggarakan oleh Ristek Universitas Indonesia
+# Idle Car Detection Using YOLOv3 and Background Subtraction Methods
+This project is submitted for final stage of Datathon RISTEK University of Indonesia 2023
 
-Member dari proyek ini:
+Member of this project:
 - <a href = 'https://www.linkedin.com/in/yosefnw/'>Yosef Nuraga</a>
 - <a href = 'https://www.linkedin.com/in/louis-widi-anandaputra-90008815a/'>Louis Widi</a>
 - <a href = 'https://www.linkedin.com/in/limbodhiwijaya/'>Lim Bodhi</a>
@@ -10,7 +10,12 @@ Member dari proyek ini:
 python main.py
 ```
 
-Ganti input pada snippet kode main.py di bawah ini menjadi nama file video yang akan digunakan
+Configure the parameter
+```python
+model.read_video("your-video-source",128,64,True,False)
 ```
+
+Change the code snippet below `main.py` to the source of video in your directory.
+```python
 model.read_video("your-video-source",128,64,True,False)
 ```
