@@ -1,4 +1,4 @@
-# Idle Car Detection Using YOLOv3 and Background Subtraction Methods
+# Idle Car Detection Using YOLOv4 and Background Subtraction Methods
 This project is submitted for final stage of Datathon RISTEK University of Indonesia 2023
 
 ![image](https://github.com/yosefnuragaw/idle-car-detector/assets/109545855/3f09688b-d98f-4c25-a96a-f76dcebb6854)
