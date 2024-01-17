@@ -16,4 +16,4 @@ if __name__ == "__main__":
                  kernel_close=(10,10))
 
     model.initialize_yolo("config/yolov3.weights","config/yolov3.cfg")
-    model.read_video("dataset/ISLab-06.mp4",128,64,True,False)
+    model.read_video("your-video-source",128,64,True,False) # Change your video directory
