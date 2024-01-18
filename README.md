@@ -33,3 +33,4 @@ Change the code snippet below `main.py` to the source of video in your directory
 ```python
 model.read_video("your-video-source",128,64,True,False)
 ```
+We also added configurations and weights for YoloV3 on this repository.
